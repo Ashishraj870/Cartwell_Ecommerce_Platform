@@ -1,0 +1,23 @@
+# Java / Spring Boot
+target/
+*.class
+
+# React / Node.js
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Local configuration containing credentials
+application-local.properties
+application-local.yml
